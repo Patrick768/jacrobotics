@@ -1,0 +1,17 @@
+Sitemap
+
+Splash (directs to English/French homes)
+
+eng:
+	home
+	aboutus
+	competition
+	school
+	robot
+	
+french
+	home_fr
+	aboutus_fr
+	competition_fr
+	school_fr
+	robot_fr
