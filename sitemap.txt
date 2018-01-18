@@ -10,7 +10,7 @@ eng:
 	robot
 	
 french
-	home_fr
+	fr/home
 	aboutus_fr
 	competition_fr
 	school_fr
