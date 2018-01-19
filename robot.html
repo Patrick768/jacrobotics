@@ -1,6 +1,7 @@
 <head>
 	<title>JAC Robotics	</title>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 <style>
 * {
     box-sizing: border-box;
@@ -8,12 +9,19 @@
 
 body {
     margin: 0;
+		background-image: url("img/bg/background.png"); */
+		color: white;
 }
 
 
 a {
-	color:#212f3d;
+	color: white;
 	font-size:1.2em;
+}
+
+.heading{
+    font-family: 'Montserrat';font-size: 22px;
+    font-weight:600;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -24,12 +32,13 @@ a {
 
 .left {
   width: 10%;
+	background-image: url("img/bg/light.png");
+	height: 100vh;
 }
 
 .right {
   width: 90%;
 }
-
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -37,10 +46,11 @@ a {
     clear: both;
 }
 </style>
-<body bgcolor="#A9CCE3">
+<body style="color: white">
 	<div class="row">
-	  <div class="column left" style="background-color:#A9CCE3;">
-		<h2>Links</h2>
+	  <div class="column left" >
+			<!-- style="background-color:#A9CCE3;" -->
+		<!-- <h2>Links</h2> --></br>
 		<a href="home.html">Home</a> </br>
 		<a href="aboutus.html">About Us</a> </br>
 		<a href="competition.html">The Competition</a> </br>
@@ -50,18 +60,19 @@ a {
 		<a href="video.html">Video</a>
 		</br> </br> </br> </br> </br> <a href="robot.html"> English </a> </br> <a href="fr/robot.html"> Fran&ccedil;ais </a>
 	  </div>
-		<div class="column right" style="background-color:#FAE5D3;"> 
+		<div class="column right">
 	  <!-- All code upto this point should always be the same -->
-		<h1>Our Robot</h1>
+		<h1 style="heading">OUR ROBOT</h1>
 		<h3>Some would say this is the most important part of The Competition</h3>
-				
-		<img src="img/robotbuild.jpg" alt="trying to build a robot" width=30% align="left"> 
-		<p> This year to ensure our robot could handle the task we choose to build it out of extruded aluminum, or T slottedbars. This allowed us to customize our frame easily and quickly without having to constantly drill holes through metal, but also gave us the strength to have our robot be lightweight so as to not tip over on the ramp. </p> 
-		<img src="img/robot2.jpg" alt="Our Robot almost being finished" width=15% align="right"> 
-		
-		<p> Our robot uses a combination of things, including but no limited to, magic, duct tape, a prayer and unicorn hair in order to function. It will pick up five (5) footballs and throw them into the V, allowing us to (hopefully) score points. </p> 
+
+		<img src="img/robotbuild.jpg" alt="trying to build a robot" width=30% align="left">
+		<!-- TODO: Have Helena add her good english here! -->
+		<p> This year to ensure our robot could handle the task we chose to build it out of extruded aluminium, or T-slotted bars. This allowed us to quickly and easily customize our frame.   without having to constantly drill holes through metal, but also gave us the strength to have our robot be lightweight so as to not tip over on the ramp. </p>
+		<img src="img/robot2.jpg" alt="Our Robot almost being finished" width=15% align="right">
+
+		<p> Our robot uses a combination of things, including, but no limited to, magic, duct tape, a prayer and unicorn hair in order to function. It will pick up five (5) footballs and throw them into the V, allowing us to (hopefully) score points. </p>
 		<!-- <img src="img/robotbuild.jpg" alt="trying to build a robot" width=30% align="right">  -->
-		
+
 	  </div>
 	</div>
 </body>
